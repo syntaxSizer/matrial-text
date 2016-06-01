@@ -19,24 +19,23 @@
         android:backgroundTint="#fff"
         android:textColor="#777"
 
-        android:layout_alignBottom="@+id/view"
-        android:layout_alignRight="@+id/view"
-        android:layout_alignEnd="@+id/view"
-        android:layout_marginBottom="-100dp"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/view3"
+        android:layout_alignEnd="@+id/view3"
         android:layout_alignLeft="@+id/view3"
         android:layout_alignStart="@+id/view3" />
 
     <com.github.florent37.materialtextfield.MaterialTextField
 
         android:layout_width="300dp"
-        android:layout_height="250dp"
+        android:layout_height="180dp"
         app:mtf_image="@drawable/ic_mail_grey600_24"
         android:hint="Email"
         android:id="@+id/view3"
-        android:layout_centerVertical="true"
+        android:layout_alignBottom="@+id/view"
         android:layout_alignLeft="@+id/view"
-        android:layout_alignStart="@+id/view"
-        android:layout_marginBottom="-60dp">
+        android:layout_alignStart="@+id/view">
 
         <EditText
             android:layout_width="match_parent"
