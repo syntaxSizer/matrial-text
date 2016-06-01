@@ -11,12 +11,54 @@
     tools:context="matrial.aka.matrial_text.Matrial_text"
     android:background="#222">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS ME"
+        android:id="@+id/button"
+        android:backgroundTint="#fff"
+        android:textColor="#777"
+
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:layout_marginBottom="-100dp"
+        android:layout_alignLeft="@+id/view3"
+        android:layout_alignStart="@+id/view3" />
+
     <com.github.florent37.materialtextfield.MaterialTextField
+
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        app:mtf_image="@drawable/ic_mail_grey600_24"
+        android:hint="Email"
+        android:id="@+id/view3"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginBottom="-60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+
+
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:mtf_image="@drawable/ic_mail_grey600_24"
         android:hint="Password"
-        >
+        android:id="@+id/view"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
 
         <EditText
             android:layout_width="match_parent"
